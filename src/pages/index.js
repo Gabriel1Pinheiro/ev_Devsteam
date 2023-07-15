@@ -32,7 +32,7 @@ export default function Home() {
 
           <div>
             <Subtitle className={styles.session}>Outros jogos</Subtitle>
-            <div>
+            <div className={styles.gameContainer}>
               <GameCard/>
               <GameCard/>
               <GameCard/>
