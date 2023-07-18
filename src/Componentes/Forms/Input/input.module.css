@@ -8,7 +8,7 @@
 
 .input::placeholder{
     color: #C7C7C7;
-    font: italic;
+    font-style: italic;
 }
 
 .fullWidth{

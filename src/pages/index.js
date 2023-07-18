@@ -6,7 +6,7 @@ import Navbar from '@/Componentes/Navbar/navbar'
 import Subtitle from '@/Componentes/Tipography/Subtitle/subtitle'
 import Container from '@/Componentes/Container/container'
 import SaleCard from '@/Componentes/Cards/SaleCards/SaleCard'
- import GameCard  from '@/Componentes/Cards/GameCard/gameCard'
+import GameCard from '@/Componentes/Cards/GameCard/gameCard'
 
 export default function Home() {
   return (
@@ -24,18 +24,33 @@ export default function Home() {
           <div className={styles.session}>
             <Subtitle>Promoções</Subtitle>
             <div className={styles.saleContainer}>
-              <SaleCard />
-              <SaleCard />
-              <SaleCard />
+              <SaleCard
+                image={'valorant.jpg'}
+                discout={'100%'}
+                fullPrice={'00,00'}
+                discoutPrice={'00,00'}
+              />
+              <SaleCard
+              image={'dota-2.jpg'}
+              discout={'100%'}
+              fullPrice={'00,00'}
+              discoutPrice={'00,00'}
+              />
+              <SaleCard 
+              image={'league-of-legends.jpg'}
+              discout={'90%'}
+              fullPrice={'199.0'}
+              discoutPrice={'57,90'}
+              />
             </div>
           </div>
 
           <div>
             <Subtitle className={styles.session}>Outros jogos</Subtitle>
             <div className={styles.gameContainer}>
-              <GameCard/>
-              <GameCard/>
-              <GameCard/>
+              <GameCard />
+              <GameCard />
+              <GameCard />
             </div>
           </div>
 
