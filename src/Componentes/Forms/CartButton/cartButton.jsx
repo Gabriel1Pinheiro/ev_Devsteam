@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from './cartButton.module.css'
 import { BsCart4 } from 'react-icons/bs'
 
-import CartMenu from '@/Componentes/CartMenu/cartmenu'
+import CartMenu from '@/Componentes/CartMenu/cartMenu'
 
 export default function CartButton({cart, onRemove}) {
 
