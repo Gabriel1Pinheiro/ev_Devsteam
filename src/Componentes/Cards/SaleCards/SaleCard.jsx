@@ -3,7 +3,7 @@ import styles from './SaleCard.module.css'
 import Image from "next/image"
 import Button from '@/Componentes/Forms/Botton/button'
 
-export default function SaleCard({image, discout, fullPrice, discoutPrice}) {
+export default function SaleCard({image, discout, fullPrice, discoutPrice, onAdd}) {
     return (
 
         <div className={styles.saleCard}>
@@ -17,7 +17,7 @@ export default function SaleCard({image, discout, fullPrice, discoutPrice}) {
                         <h4 className={styles.discoutPrice}>R${discoutPrice}</h4>
                     </div>
                 </div>
-                <Button fullwidth>Adicionar ao carrinho</Button>
+                <Button fullwidth onClick={onAdd}>Adicionar ao carrinho</Button>
             </div>
         </div>
     )
