@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from '@/Componentes/Logo/logo.module.css'
+import styles from './logo.module.css'
 
 export default function Logo() {
     return(

@@ -1,5 +1,5 @@
-import styles from '@/Componentes/Navbar/navbar.module.css'
-import {BsCart4} from 'react-icons/bs'
+import styles from './navbar.module.css'
+
 
 import Logo from '@/Componentes/Logo/logo'
 import Input from '@/Componentes/Forms/Input/input'
